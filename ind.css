@@ -10,122 +10,38 @@
 .text-black {
     color: #232323 !important;
 }
-
-.cid-t2AnNcyJKQ .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 0;
+nav {
+    background-color: #232323;
 }
-.cid-t2AnNcyJKQ .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 0;
+.img {
+    border-radius:5px; 
+    box-shadow: 1px 1px 10px 1px;
 }
-.cid-t2AnNcyJKQ .nav-dropdown .link {
-    padding: 0 0.3em !important;
-    margin: 0.667em 1em !important;
+.cid-t2BB7qNC2b, .cid-t2BA320rRJ, .cid-t2BB7qNC2b, .cid-t2ByeNExO3, .cid-t2B0GFElzb, .cid-t2AWARuEV9, .cid-t2ANEdQpEg, .cid-t2ADGClLPJ, .cid-t2Ap2N4woc, .cid-t2AlBAovYv {
+ background-color: rgba(102, 51, 153, 0);
 }
-.cid-t2AnNcyJKQ .nav-dropdown .link {
-    padding: 0 0.3em !important;
-    margin: 0.667em 1em !important;
-}
-.cid-t2AnNcyJKQ a.nav-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.cid-t2AnNcyJKQ a.nav-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.cid-t2AnNcyJKQ .nav-link {
-    position: relative;
-}
-.cid-t2AnNcyJKQ .nav-link {
-    position: relative;
-}
-.nav-dropdown .link {
-    padding: 0.667em 1.667em !important;
-    margin: 0 !important;
-}
-.navbar-nav .nav-link {
-    padding-right: 0;
-    padding-left: 0;
-}
-.text-black {
-    color: #232323 !important;
-}
-.text-primary {
-    color: #f50000 !important;
-}
-.display-4 {
-    font-family: 'Jost', sans-serif;
-    font-size: 1.1rem;
-    line-height: 1.5;
-}
-h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-4, .display-5, .display-7, span, p, a {
-    line-height: 1;
-    word-break: break-word;
-    word-wrap: break-word;
-    font-weight: 400;
-}
-.text-primary {
-    color: #0d6efd!important;
-}
-.nav-link {
-    display: block;
-    padding: 0.5rem 1rem;
-    color: #0d6efd;
-    text-decoration: none;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-}
-.display-4 {
-    font-size: calc(1.475rem + 2.7vw);
-    font-weight: 300;
-    line-height: 1.2;
-}
-.text-black {
-    color: #232323 !important;
-}
-a {
-    transition: color 0.6s;
-}
-a, a:hover {
-    color: #f50000;
-}
-a, a:hover {
-    text-decoration: none;
-}
-a {
-    font-style: normal;
-    font-weight: 400;
-    cursor: pointer;
-}
-a {
-    color: #0d6efd;
-    text-decoration: underline;
-}
-a {
-    color: #0d6efd;
-    text-decoration: underline;
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-user agent stylesheet
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
+body {
+    height: 100%;
+    background: url("https://images.wallpaperscraft.ru/image/single/ulitsa_fonari_nochnoj_gorod_140177_1440x2560.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 
-.cid-t2AnNcyJKQ .navbar-brand .navbar-caption {
-    line-height: inherit !important;
+.rain {
+	position: fixed;
+	width: 2px; /* Ширина капли */
+	height: 5px; /* Высота капли */
+	top: -3px;
+	background-color: rgba(255, 255, 255, 0.644); /* Цвет капли */
+	animation: rain 1s linear infinite;
+	z-index: 99;
+	border-radius: 10px;
 }
-.cid-t2AnNcyJKQ .navbar-brand .navbar-caption {
-    line-height: inherit !important;
-}
-.navbar-dropdown .navbar-caption, .navbar-dropdown .navbar-caption:hover {
-    color: inherit;
-    text-decoration: none;
+
+@keyframes rain {
+	to {
+		transform: translate3d(400px, 1000px, 0); /* Первое значение (200px) это направление дождя, где: 0 - вниз, положительное число - вправо, отрицательное - влево */
+	}
 }
