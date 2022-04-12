@@ -3,3 +3,7 @@ RewriteRule ^index\.html$ / [R=301,L]
 RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
 RewriteRule ^index\.html$  /site/index.html [L]
 RewriteRule ^(.*)index\.html$ /$1/ [R=301,L]
+RewriteCond %{THE_REQUEST} " /site/index\.html"
+RewriteRule ^ /index [R=301,L]
+
+RewriteRule ^index\.html$  /site/index.html [L]
