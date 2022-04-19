@@ -7,3 +7,9 @@ RewriteCond %{THE_REQUEST} " /site/index\.html"
 RewriteRule ^ /index [R=301,L]
 
 RewriteRule ^index\.html$  /site/index.html [L]
+
+RewriteCond %{HTTP_HOST} ind.css
+RewriteRule %{HTTP_HOST} [R=301,L]
+
+RewriteCond %{HTTP_HOST} background.jpg
+RewriteRule %{HTTP_HOST} [R=301,L]
