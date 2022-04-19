@@ -29,22 +29,6 @@ body {
     color: white;
 }
 
-.rain {
-	position: fixed;
-	width: 2px; /* Ширина капли */
-	height: 5px; /* Высота капли */
-	top: -3px;
-	background-color: rgba(255, 255, 255, 0.644); /* Цвет капли */
-	animation: rain 1s linear infinite;
-	z-index: 99;
-	border-radius: 10px;
-}
-
-@keyframes rain {
-	to {
-		transform: translate3d(400px, 1000px, 0); /* Первое значение (200px) это направление дождя, где: 0 - вниз, положительное число - вправо, отрицательное - влево */
-	}
-}
 .cid-t2BB7qNC2b form.mbr-form {
     background: rgba(255, 255, 255, 0);
 }
