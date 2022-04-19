@@ -22,7 +22,7 @@ img, .img {
 }
 body {
     height: 100%;
-    background: url("https://images.wallpaperscraft.ru/image/single/ulitsa_fonari_nochnoj_gorod_140177_1440x2560.jpg");
+    background: url("./background.jpg");
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
