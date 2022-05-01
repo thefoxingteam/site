@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    color: white;
+}
+h1, p {
+    color: white;
+}
+.txts {
+    margin-top: 10px;
+}
+.txts > p {
+    margin-top: 5px;
+}
+.ujdhfsd {
+    position: absolute;
+    /* добавили */
+    bottom: 0;
+    /* добавили */
+    width: 100%;
+}
+.un, .vhod {
+    display: none;
+}
+.active {
+    display: block;
+}
